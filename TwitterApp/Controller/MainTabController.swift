@@ -11,12 +11,21 @@ class MainTabController: UITabBarController {
     
     // MARK: - Properties
     
+    let actionButton: UIButton = {
+        let button = UIButton(type: .system)
+        button.tintColor = .white
+        button.backgroundColor = .blue
+        button.setImage(UIImage(named: "new_tweet"), for: .normal)
+        return button
+    }()
+    
     // MARK: - Lifecycle
 
     override func viewDidLoad() {
         super.viewDidLoad()
         
         configureViewControllers()
+        configureUI()
     }
     
     // MARK: - Helpers
@@ -43,6 +52,16 @@ class MainTabController: UITabBarController {
         nav.navigationBar.barTintColor = .white
         
         return nav
+    }
+    
+    func configureUI() {
+        view.addSubview(actionButton)
+        actionButton.translatesAutoresizingMaskIntoConstraints = false
+        actionButton.heightAnchor.constraint(equalToConstant: 56).isActive = true
+        actionButton.widthAnchor.constraint(equalToConstant: 56).isActive = true
+        actionButton.bottomAnchor.constraint(equalTo: view.safeAreaLayoutGuide.bottomAnchor, constant: -64).isActive = true
+        actionButton.rightAnchor.constraint(equalTo: view.rightAnchor, constant: -16).isActive = true
+        actionButton.layer.cornerRadius = 56 / 2
     }
 
 }
