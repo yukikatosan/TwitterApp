@@ -15,7 +15,7 @@ class LoginController: UIViewController {
         let imageView = UIImageView()
         imageView.contentMode = .scaleAspectFit
         imageView.clipsToBounds = true
-        imageView.image = UIImage(named: "TwitterLogo")
+        imageView.image = #imageLiteral(resourceName: "TwitterLogo")
         return imageView
     }()
     
