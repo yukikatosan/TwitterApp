@@ -16,6 +16,7 @@
 		A2AB886129D71E39004DE337 /* ExploreController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2AB886029D71E39004DE337 /* ExploreController.swift */; };
 		A2AB886329D71E64004DE337 /* NotificationsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2AB886229D71E64004DE337 /* NotificationsController.swift */; };
 		A2AB886529D71E83004DE337 /* ConversationsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2AB886429D71E83004DE337 /* ConversationsController.swift */; };
+		A2EE8C4129D8331B000665AE /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2EE8C4029D8331B000665AE /* Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		A2AB886029D71E39004DE337 /* ExploreController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreController.swift; sourceTree = "<group>"; };
 		A2AB886229D71E64004DE337 /* NotificationsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationsController.swift; sourceTree = "<group>"; };
 		A2AB886429D71E83004DE337 /* ConversationsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversationsController.swift; sourceTree = "<group>"; };
+		A2EE8C4029D8331B000665AE /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +82,7 @@
 		A2AB885329D70AC3004DE337 /* Utills */ = {
 			isa = PBXGroup;
 			children = (
+				A2EE8C4029D8331B000665AE /* Extensions.swift */,
 			);
 			path = Utills;
 			sourceTree = "<group>";
@@ -197,6 +200,7 @@
 				A2AB886329D71E64004DE337 /* NotificationsController.swift in Sources */,
 				A2AB886529D71E83004DE337 /* ConversationsController.swift in Sources */,
 				A2AB884029D6F923004DE337 /* AppDelegate.swift in Sources */,
+				A2EE8C4129D8331B000665AE /* Extensions.swift in Sources */,
 				A2AB886129D71E39004DE337 /* ExploreController.swift in Sources */,
 				A2AB884229D6F923004DE337 /* SceneDelegate.swift in Sources */,
 				A2AB885D29D70D03004DE337 /* MainTabController.swift in Sources */,
