@@ -19,6 +19,7 @@
 		A2EE8C4129D8331B000665AE /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2EE8C4029D8331B000665AE /* Extensions.swift */; };
 		A2EE8C4429D84704000665AE /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2EE8C4329D84704000665AE /* LoginController.swift */; };
 		A2EE8C4629D84789000665AE /* RegistrationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2EE8C4529D84789000665AE /* RegistrationController.swift */; };
+		A2EE8C4829D9353F000665AE /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2EE8C4729D9353F000665AE /* Utilities.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		A2EE8C4029D8331B000665AE /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		A2EE8C4329D84704000665AE /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
 		A2EE8C4529D84789000665AE /* RegistrationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationController.swift; sourceTree = "<group>"; };
+		A2EE8C4729D9353F000665AE /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +89,7 @@
 			isa = PBXGroup;
 			children = (
 				A2EE8C4029D8331B000665AE /* Extensions.swift */,
+				A2EE8C4729D9353F000665AE /* Utilities.swift */,
 			);
 			path = Utills;
 			sourceTree = "<group>";
@@ -213,6 +216,7 @@
 			files = (
 				A2AB886329D71E64004DE337 /* NotificationsController.swift in Sources */,
 				A2AB886529D71E83004DE337 /* ConversationsController.swift in Sources */,
+				A2EE8C4829D9353F000665AE /* Utilities.swift in Sources */,
 				A2AB884029D6F923004DE337 /* AppDelegate.swift in Sources */,
 				A2EE8C4129D8331B000665AE /* Extensions.swift in Sources */,
 				A2EE8C4429D84704000665AE /* LoginController.swift in Sources */,
