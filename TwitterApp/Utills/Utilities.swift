@@ -40,4 +40,19 @@ class Utilities {
         textField.attributedPlaceholder = NSAttributedString(string: placeholder, attributes: [NSAttributedString.Key.foregroundColor: UIColor.white])
         return textField
     }
+    
+    func attributedButton(_ firstPart: String, _ secondPart: String) -> UIButton {
+        let button = UIButton(type: .system)
+        
+        let attributedTitle = NSMutableAttributedString(string: firstPart, attributes:
+                                                            [.font: UIFont.systemFont(ofSize: 16),
+                                                             .foregroundColor: UIColor.white])
+        attributedTitle.append(NSAttributedString(string: secondPart, attributes:
+                                                    [.font: UIFont.systemFont(ofSize: 16),
+                                                     .foregroundColor: UIColor.white]))
+        
+        button.setAttributedTitle(attributedTitle, for: .normal)
+        
+        return button
+    }
 }
